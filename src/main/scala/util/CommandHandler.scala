@@ -1,8 +1,6 @@
 package util
 
 import shapeless._
-import shapeless._
-import CommandHandler._
 
 trait CommandHandler[C] {
   def processCommand(command: C): Unit
